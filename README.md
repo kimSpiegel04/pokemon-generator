@@ -1,2 +1,5 @@
 # pokemon-generator
-Click to generate a new pokemon to learn about
+link: https://kimspiegel04.github.io/pokemon-generator/
+
+Click on the pokeball to generate a random pokemon and learn about its type(s), stats, etc. 
+![View of inital load](pokemon-generator.JPG)
