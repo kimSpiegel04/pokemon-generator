@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        body{
+            background-image: url('background-images/mansion.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
     <div class='content'>
 
         <h1 class='title'>Pokemon Generator</h1>
 
         <h3 class='instructions'>Press the button below to learn about a new Pokemon!</h3>
 
-        <input type="image" id="pokeball" class='pokeball' alt="New Pokemon button" src="pokeball.png">
+        <input onclick="newPokemon()" type="image" id="pokeball" class='pokeball' alt="New Pokemon button" src="pokeball.png">
 
     </div>
 
