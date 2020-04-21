@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='content'>
+
+        <h1 class='title'>Pokemon Generator</h1>
+
+        <h3 class='instructions'>Press the button below to learn about a new Pokemon!</h3>
+
+        <input type="image" id="pokeball" class='pokeball' alt="New Pokemon button" src="pokeball.png">
+
+    </div>
+
+    <div class='pokemon-info'>
+        <h1 id='name'></h1>
+        <div class='image'>
+            <div id='sprite'></div>
+        </div>
+        <div class='rest-info'>
+            <p>Pokedex No.: <span id='num'></span></p>
+            <p>Types: <span id='type'></span></p>
+            <p>Base Stats: </p>
+            <li>hp: <span id='hp'></span></li>
+            <li>Speed: <span id='speed'></span></li>
+            <li>Attack: <span id='att'></span></li>
+            <li>Defense: <span id='def'></span></li>
+            <li>Special Attack: <span id='sp-att'></span></li>
+            <li>Special Defense: <span id='sp-def'></span></li>
+            <li>Total: <span id='total'></span></li>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>

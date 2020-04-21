@@ -1,0 +1,57 @@
+/* body{
+
+} */
+
+.content{
+    background-color: #FFCB05;
+    color: #003A70;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 0.1em;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.pokeball{
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+}
+
+/* .pokeball:hover{
+    transform: scale()
+} */
+
+.pokemon-info{
+    background-color: #FFCB05;
+    color: #003A70;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 0.1em;
+    margin: auto;
+    margin-top: 35px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.rest-info{
+    width: 60%;
+    float: right;
+    text-align: left;
+}
+
+.image{
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sprite img{
+    height: 100%;
+    width: 100%;
+    
+}
