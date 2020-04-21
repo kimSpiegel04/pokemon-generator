@@ -47,8 +47,19 @@ pokemon = (x) => {
         document.getElementById('sp-def').innerHTML = specialDefense;
         document.getElementById('total').innerHTML = total;
         
-            
-            
+        //background
+        if(typeArr[0] == 'water'){
+            document.body.style.backgroundImage = "url('./background-images/water-background.png')";
+        } else if (typeArr[0] == 'rock'){
+            document.body.style.backgroundImage = "url('./background-images/rock-background.png')";
+        } else if (typeArr[0] == 'fire'){
+            document.body.style.backgroundImage = "url('./background-images/fire-background.jpg')";
+        } else {
+            document.body.style.backgroundImage = "url('./background-images/background.png')";
+        }
+
+
+
         })
 }
         
